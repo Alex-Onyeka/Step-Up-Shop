@@ -1,16 +1,29 @@
-# shopapp
+# Step-Up Shop
+A premium e-commerce platform for authentic male and female shoes.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+✅ Browse a wide collection of stylish and authentic shoes
 
-This project is a starting point for a Flutter application.
+✅ Filter and sort by category, price, and discount
 
-A few resources to get you started if this is your first Flutter project:
+✅ Detailed product descriptions and high-quality images
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Seamless shopping experience with a user-friendly interface
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Secure checkout and payment integration (Coming soon!)
+
+
+## Tech Stack
+
+✅ Frontend: Flutter (for cross-platform mobile)
+
+✅ Backend: Supabase (for authentication, database, and storage)
+
+✅ Database: PostgreSQL
+
+✅ Version Control: Git & GitHub
+
+✅ A few resources to get you started if this is your first Flutter project:
+
+
