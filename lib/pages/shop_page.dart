@@ -284,6 +284,19 @@ class _ShopPageState extends State<ShopPage> {
                                     .allStorItems()
                                     .length,
                         itemBuilder: (context, index) {
+                          List list() {
+                            if (currentCategory == 'male') {
+                              return value.allMaleItems();
+                            } else if (currentCategory ==
+                                'female') {
+                              return value.allFemaleItems();
+                            } else {
+                              return value.allStorItems();
+                            }
+                          }
+
+                          List items = list();
+
                           return Padding(
                             padding:
                                 const EdgeInsets.symmetric(
@@ -299,8 +312,7 @@ class _ShopPageState extends State<ShopPage> {
                                             ProductDetails(),
                                     settings: RouteSettings(
                                       arguments:
-                                          value
-                                              .shoes[index],
+                                          items[index],
                                     ),
                                   ),
                                 );
