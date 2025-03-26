@@ -1,7 +1,7 @@
-# Step-Up Shop
+## Step-Up Shop
 A premium e-commerce platform for authentic male and female shoes.
 
-## Features
+### Features
 
 ✅ Browse a wide collection of stylish and authentic shoes
 
@@ -14,7 +14,7 @@ A premium e-commerce platform for authentic male and female shoes.
 ✅ Secure checkout and payment integration (Coming soon!)
 
 
-## Tech Stack
+### Tech Stack
 
 ✅ Frontend: Flutter (for cross-platform mobile)
 
